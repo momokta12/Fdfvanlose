@@ -2,12 +2,14 @@
 {
     public class Bestyrelse
     {
-        private string navn;
+        private string navn { get; set; }
 
-        public void modtagSalgsrapport()
+        public string modtagSalgsrapport()
         {
-            // Implementering her
+            // Implementering her metoeden
+            return ""; // angiv her returværdien 
         }
     }
+
 
 }

@@ -2,7 +2,7 @@
 {
     public class Lotteribestyrer
     {
-        private string navn;
+        private string navn { get; set; }
 
         public Børnegruppe opretBørnegruppe(string navn)
         {
@@ -14,5 +14,11 @@
         {
             // Implementering her
         }
+
+        public void tilføjBarnTilGruppe(Børnegruppe gruppe, Barn barn)
+        {
+            // Implementering her
+        }
     }
+
 }

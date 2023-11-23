@@ -5,9 +5,9 @@ namespace Fdfvanlose.Models
 {
     public class Bruger
     {
-        private string brugernavn;
-        private string kodeord;
-        private Role rolle;
+        private string brugernavn { get; set; }
+        private string kodeord { get; set; }
+        private Role rolle { get; set; }
 
         public void logInd()
         {
@@ -19,5 +19,5 @@ namespace Fdfvanlose.Models
             // Implementering her
         }
     }
+
 }
-    
