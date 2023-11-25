@@ -21,4 +21,7 @@
         }
     }
 
+    // metode implmenter 5
+    // metode implementer userstory 6 - 7
+
 }
