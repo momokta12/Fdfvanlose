@@ -2,9 +2,9 @@
 {
     public class Betaling
     {
-        private double beløb { get; set; }
-        private DateTime betalingsdato { get; set; }
-        private Lodseddel lodseddel { get; set; }
+        public double Beløb { get; set; }
+        public DateTime Betalingsdato { get; set; }
+        public Lodseddel Lodseddel { get; set; }
 
         // Konstruktor og metoder som nødvendigt test
     }
